@@ -1,0 +1,17 @@
+{
+  "name": "openhab-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "start:dev": "lerna run start:dev --stream"
+  },
+  "author": "Eric Siebeneich",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
